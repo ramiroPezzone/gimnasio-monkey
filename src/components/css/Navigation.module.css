@@ -1,0 +1,23 @@
+.containerNavbar {
+  background-color: var(--negro-monkey);
+}
+.containerLogoNavbar {
+    margin: 0 20px;
+}
+.logoNavbar {
+  height: 50px;
+}
+.link {
+  text-align: center;
+  position: relative;
+}
+.subrayadoLinks {
+  width: 0;
+  height: 2px;
+  background-color: var(--rojo-monkey);
+  transition: .2s;
+}
+.link:hover > .subrayadoLinks {
+    width: 100%;
+    transition: .2s;
+}

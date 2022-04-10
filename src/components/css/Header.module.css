@@ -1,0 +1,17 @@
+.imagenCarrusel {
+  width: 100vw;
+  height: 75vh;
+  background-size: contain;
+}
+.imagen1 {
+  background: url(../../assets/imgs/imgCarrusel1.png) no-repeat center;
+}
+.imagen2 {
+  background: url(../../assets/imgs/imgCarrusel2.png) no-repeat center;
+}
+.imagen3 {
+  background: url(../../assets/imgs/imgCarrusel3.png) no-repeat center;
+}
+.imagen4 {
+  background: url(../../assets/imgs/imgCarrusel4.png) no-repeat center;
+}
