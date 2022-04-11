@@ -1,0 +1,36 @@
+.containerIconosContacto {
+  display: flex;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.iconoWhatsapp {
+  background: url(../../assets/imgs/logoTelConWhatsapp.png) no-repeat center;
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+}
+.iconoUbicacion {
+  background: url(../../assets/imgs/logoUbicacion.png) no-repeat center;
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+}
+.itemContacto,
+.itemContacto a {
+  color: var(--rojo-monkey);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.containerMapa {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}

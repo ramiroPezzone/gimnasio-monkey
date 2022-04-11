@@ -1,0 +1,33 @@
+.containerGralCronograma {
+  padding: 20px 0;
+}
+.gridContainerCronograma p {
+  margin: 0;
+  padding: 0;
+}
+.gridContainerCronograma {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "actividad horario";
+  grid-template-columns: 40% 60%;
+  color: #fff;
+  backdrop-filter: blur(5px);
+  padding: 3px;
+  grid-gap: 3px;
+  font-size: 1.2em;
+  text-align: center;
+  align-content: center;
+}
+.actividad {
+  grid-area: "actividad";
+  background-color: var(--blanco-faded);
+  padding: 10px;
+  border-bottom: 2px inset var(--rojo-monkey);
+}
+.horario {
+  grid-area: "horario";
+  background-color: var(--blanco-faded);
+  padding: 10px;
+  border-bottom: 2px inset var(--rojo-monkey);
+}

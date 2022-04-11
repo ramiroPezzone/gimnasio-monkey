@@ -1,8 +1,11 @@
 import React from 'react'
 import styles from '../css/Nosotros.module.css'
+import { TituloSection } from './TituloSection'
 
 export const Nosotros = () => {
   return (
-    <div>Nosotros</div>
+    <div>
+      <TituloSection titulo="NOSOTROS" />
+    </div>
   )
 }

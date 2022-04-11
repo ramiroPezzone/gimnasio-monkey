@@ -1,17 +1,25 @@
 .imagenCarrusel {
   width: 100vw;
-  height: 75vh;
-  background-size: contain;
+  height: 60vh;
+  background-position: 0% 0%;
 }
 .imagen1 {
-  background: url(../../assets/imgs/imgCarrusel1.png) no-repeat center;
+  background: url(../../assets/imgs/imgCarrusel1.jpeg) no-repeat center;
+  background-size: cover
 }
 .imagen2 {
-  background: url(../../assets/imgs/imgCarrusel2.png) no-repeat center;
+  background: url(../../assets/imgs/imgCarrusel2.jpeg) no-repeat center;
+  background-size: cover
 }
 .imagen3 {
-  background: url(../../assets/imgs/imgCarrusel3.png) no-repeat center;
+  background: url(../../assets/imgs/imgCarrusel3.jpeg) no-repeat center;
+  background-size: cover
 }
 .imagen4 {
-  background: url(../../assets/imgs/imgCarrusel4.png) no-repeat center;
+  background: url(../../assets/imgs/imgCarrusel4.jpeg) no-repeat center;
+  background-size: cover
+}
+.imagen5 {
+  background: url(../../assets/imgs/imgCarrusel5.jpeg) no-repeat center;
+  background-size: cover
 }

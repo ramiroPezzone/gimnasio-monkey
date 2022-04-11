@@ -1,0 +1,11 @@
+.containerTitulo {
+  position: relative;
+  padding: 0 20px;
+}
+.containerTitulo img {
+  width: 60px;
+  position: absolute;
+  z-index: -1000;
+  top: -15px;
+  left: 5px;
+}
