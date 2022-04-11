@@ -2,7 +2,6 @@ import { Navigation } from "./components/js/Navigation";
 import { Header } from "./components/js/Header";
 import { Nosotros } from "./components/js/Nosotros";
 import { Cronograma } from "./components/js/Cronograma";
-import { ComplejoCampoSur } from "./components/js/ComplejoCampoSur";
 import { Coaches } from "./components/js/Coaches";
 import { Contacto } from "./components/js/Contacto";
 import { Footer } from "./components/js/Footer";
@@ -16,7 +15,6 @@ function App() {
       <Header />
       <LogoWhatsapp />
       <Nosotros />
-      <ComplejoCampoSur />
       <Cronograma />
       <Coaches />
       <Contacto />

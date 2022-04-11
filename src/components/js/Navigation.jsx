@@ -17,9 +17,6 @@ export const Navigation = () => {
                             <Nav.Link href="#nosotros" className={styles.link}>Nosotros
                                 <div className={styles.subrayadoLinks} />
                             </Nav.Link>
-                            <Nav.Link href="#campoSur" className={styles.link}>Complejo campo sur
-                                <div className={styles.subrayadoLinks} />
-                            </Nav.Link>
                             <Nav.Link href="#actividades" className={styles.link}>Actividades
                                 <div className={styles.subrayadoLinks} />
                             </Nav.Link>

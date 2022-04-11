@@ -22,23 +22,13 @@ export const Header = () => {
           <Carousel.Caption>
             <img src={logo} alt="logo monkey" className={styles.logo} />
             <BtnHeader
-              section="campoSur"
-              nameSection="complejo campo sur"
-            />
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className={`${styles.imagen3} ${styles.imagenCarrusel}`} />
-          <Carousel.Caption>
-            <img src={logo} alt="logo monkey" className={styles.logo} />
-            <BtnHeader
               section="actividades"
               nameSection="actividades"
             />
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div className={`${styles.imagen4} ${styles.imagenCarrusel}`} />
+          <div className={`${styles.imagen3} ${styles.imagenCarrusel}`} />
           <Carousel.Caption>
             <img src={logo} alt="logo monkey" className={styles.logo} />
             <BtnHeader
@@ -48,7 +38,7 @@ export const Header = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div className={`${styles.imagen5} ${styles.imagenCarrusel}`} />
+          <div className={`${styles.imagen4} ${styles.imagenCarrusel}`} />
           <Carousel.Caption>
             <img src={logo} alt="logo monkey" className={styles.logo} />
             <BtnHeader
