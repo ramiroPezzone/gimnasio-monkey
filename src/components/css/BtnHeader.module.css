@@ -1,0 +1,14 @@
+.containerBtn {
+  margin-bottom: 20px;
+}
+.containerBtn a {
+  color: var(--rojo-monkey);
+  text-decoration: none;
+  border: 1px solid var(--rojo-monkey);
+  padding: 12px 20px;
+  font-size: 1.2em;
+}
+.containerBtn a:hover {
+  background-color: var(--rojo-monkey);
+  color: var(--negro-monkey-faded);
+}

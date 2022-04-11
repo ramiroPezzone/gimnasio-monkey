@@ -1,0 +1,8 @@
+.containerPresentacionNosotros {
+  width: 80%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.presentacionNosotros::first-letter {
+  font-size: 3em;
+}

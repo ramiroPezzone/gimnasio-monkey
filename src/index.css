@@ -26,6 +26,14 @@ h5,
 h6 {
   color: #fff;
 }
+.separadorSection {
+  height: 66px;
+}
+.direccionadorAHome {
+  position: absolute;
+  height: 1px;
+  top: -1px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

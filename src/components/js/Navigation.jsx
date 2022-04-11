@@ -8,22 +8,19 @@ export const Navigation = () => {
         <div className={styles.containerFixedNavbar}>
             <Navbar expand="lg" variant="dark" className={styles.containerNavbar}>
                 <Container>
-                    <div className={styles.containerLogoNavbar}>
+                    <a className={styles.containerLogoNavbar} href="#home">
                         <img src={logo} alt="logo monkey" className={styles.logoNavbar} />
-                    </div>
+                    </a>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home" className={styles.link}>Home
-                                <div className={styles.subrayadoLinks} />
-                            </Nav.Link>
                             <Nav.Link href="#nosotros" className={styles.link}>Nosotros
                                 <div className={styles.subrayadoLinks} />
                             </Nav.Link>
-                            <Nav.Link href="#actividades" className={styles.link}>Actividades
+                            <Nav.Link href="#campoSur" className={styles.link}>Complejo campo sur
                                 <div className={styles.subrayadoLinks} />
                             </Nav.Link>
-                            <Nav.Link href="#campoSur" className={styles.link}>Complejo campo sur
+                            <Nav.Link href="#actividades" className={styles.link}>Actividades
                                 <div className={styles.subrayadoLinks} />
                             </Nav.Link>
                             <Nav.Link href="#coaches" className={styles.link}>Coaches

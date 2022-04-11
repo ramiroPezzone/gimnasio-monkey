@@ -1,0 +1,11 @@
+.containerPresentacionCampoSur {
+    width: 80%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+.containerPresentacionCampoSur h3::first-letter {
+    font-size: 3em;
+}
+.containerPresentacionCampoSur img {
+    width: 100%;
+}

@@ -4,8 +4,13 @@ import { TituloSection } from './TituloSection'
 
 export const Nosotros = () => {
   return (
-    <div>
-      <TituloSection titulo="NOSOTROS" />
+    <div id="nosotros" >
+      <TituloSection titulo="NOSOTROS" id="nosotros" />
+      <div className={styles.containerPresentacionNosotros}>
+      <h3 className={styles.presentacionNosotros}>
+        Somos Monkey! y bla bla bla y todo el chamuyo que se te ocurra
+      </h3>
+      </div>
     </div>
   )
 }

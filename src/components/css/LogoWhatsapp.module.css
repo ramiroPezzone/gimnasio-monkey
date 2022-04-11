@@ -1,0 +1,9 @@
+.linkWhatsapp {
+    position: sticky;
+    top: 70px;
+    float: right;
+    z-index: 500000;
+}
+img {
+    width: 60px;
+}

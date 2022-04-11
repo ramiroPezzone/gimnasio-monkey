@@ -1,17 +1,17 @@
 .containerFixedNavbar {
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 0;
   z-index: 100000;
-}
-.containerNavbar {
   background-color: var(--negro-monkey-faded);
   backdrop-filter: blur(5px);
 }
-.containerLogoNavbar {
+.containerNavbar {
   margin: 0 20px;
 }
 .logoNavbar {
   height: 50px;
+  width: 100%;
 }
 .link {
   text-align: center;

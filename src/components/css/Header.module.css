@@ -1,25 +1,47 @@
 .imagenCarrusel {
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   background-position: 0% 0%;
 }
+.containerCarousel {
+  padding-top: 66px;
+}
 .imagen1 {
-  background: url(../../assets/imgs/imgCarrusel1.jpeg) no-repeat center;
-  background-size: cover
+  background: url(../../assets/imgs/imgCarrusel1.jpg) no-repeat center;
+  background-size: cover;
+  background-position: 55% 0;
 }
 .imagen2 {
   background: url(../../assets/imgs/imgCarrusel2.jpeg) no-repeat center;
-  background-size: cover
+  background-size: cover;
 }
 .imagen3 {
   background: url(../../assets/imgs/imgCarrusel3.jpeg) no-repeat center;
-  background-size: cover
+  background-size: cover;
 }
 .imagen4 {
   background: url(../../assets/imgs/imgCarrusel4.jpeg) no-repeat center;
-  background-size: cover
+  background-size: cover;
 }
 .imagen5 {
   background: url(../../assets/imgs/imgCarrusel5.jpeg) no-repeat center;
-  background-size: cover
+  background-size: cover;
+  background-position: 40% 0;
+}
+.logo {
+  width: 150px;
+  margin: 30px;
+}
+
+@media (min-width: 768px) {
+  .imagenCarrusel {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imagenCarrusel {
+    height: calc(100vh - 66px);
+    background-position: 0% 0%;
+  }
 }

@@ -1,0 +1,14 @@
+.containerCoaches {
+  display: flex;
+  width: 90%;
+  max-width: 768px;
+  justify-content: space-around;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+.containerCoaches img {
+  width: 80%;
+  box-shadow: 0 0 10px 5px var(--rojo-monkey);
+  margin: 10px;
+}
